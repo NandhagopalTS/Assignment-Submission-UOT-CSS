@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-slate-800 font-semibold">
+ <nav class="flex bg-black item-center justify-between h-16 m-5">
+    <div class="flex justify-center">
+        <img src="Icons/tailwind-css.svg" class="w-10 pl-4" alt="">
+        <h5 class="text-white pl-4 pt-4"> tailwindcss</h5>
+    </div>
+    <div class="flex gap-6 ">
+        <!-- navlinks -->
+       <ul class="hidden lg:flex items-center gap-5">
+           <li class="cursor-pointer text-white  hover:text-blue-500">Docs</li>
+           <li class="cursor-pointer text-white hover:text-blue-500">Components</li>
+           <li class="cursor-pointer text-white hover:text-blue-500">Blog</li>
+           <li class="cursor-pointer text-white hover:text-blue-500 border-r pr-4 border-gray-500">Showcase</li>
+           <i class="fa-solid fa-moon text-slate-500"></i>
+           <i class="fa-brands fa-square-github text-slate-500 pr-4"></i>
+   </ul>
+   <div class="flex lg:hidden items-center ">
+    <i class="fa-solid fa-magnifying-glass p-4" style="color: #787878;"></i>
+    <i class="fa-solid fa-ellipsis-vertical p-4" style="color: #7a7a7a;"></i>
+</div>
+    </div>
+ </nav>
+
+ <!-- IKEA NavBar -->
+ <nav class="flex bg-white m-5 item-center justify-between">
+    <div class="flex">
+        <img src="Icons/ikea.svg" class="w-14 ml-4" alt="">      
+    </div>
+    <!-- search bar -->
+    <div class="flex justify-center ml-3 mt-2 items-center border-2 rounded-full  h-10 hidden lg:flex " >
+
+        <div class="hidden lg:flex ">
+
+          <div class="form">
+            <i class="fa fa-search"></i>
+            <input type="text" class="form-control form-input" placeholder="Search anything...">
+            <span class="left-pan"><i class="fa-solid fa-camera-retro mr-4"></i></span>
+          </div>
+          
+        </div>
+        
+      </div>
+      <!-- meanu -->
+    <ul class="flex items-center gap-2 ">
+        <li class="flex items-center gap-2"><i class="fa-solid fa-truck cursor-pointer"></i><span class="hidden lg:flex font-normal">Enter postal code</span></li>
+        <li class="flex items-center gap-2"></li><i class="fa-solid fa-store cursor-pointer"></i><span class="hidden lg:flex font-normal">Select store</span></li>
+        <li class="flex items-center gap-2"></li><i class="fa-regular fa-user cursor-pointer"></i><span class="hidden lg:flex font-normal">Hej! Log in or sign up</span></li>
+        <div class="flex gap-5">
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-solid fa-bag-shopping pr-4"></i></div>
+    </ul>
+ </nav>
+    <!-- NavBar 3 -->
+    <nav class="flex bg-white m-5 item-center justify-between">
+        <div>
+            <img src="Icons/nykaa.svg" class="w-14 m-8 " alt="">
+        </div>
+        <!-- meanu -->
+        <div class="w-full h-16 ml-5">
+            <ul class="flex items-center pt-7 gap-2 ">
+                <li class="flex items-center gap-2"></li><span class="hidden lg:flex font-semibold">Categories</span></li>
+                <li class="flex items-center gap-2"></li><span class="hidden lg:flex font-semibold">Brands</span></li>
+                <li class="flex items-center gap-2"></li><span class="hidden lg:flex font-semibold">Luxe</span></li>
+                <li class="flex items-center gap-2"></li><span class="hidden lg:flex font-semibold">Nykka Fashion</span></li>
+                <li class="flex items-center gap-2"></li><span class="hidden lg:flex font-semibold">Beauty Advice</span></li>
+            </ul>
+        </div>
+        <!-- Search -->
+        <div class="flex mr-4 ">
+        <div class="flex justify-center items-center border-2 rounded mt-4 h-10 hidden lg:flex " >
+
+            <div class="hidden lg:flex ">
+    
+              <div class="form flex justify-center items-center">
+                <i class="fa fa-search pr-4 pl-4"></i>
+                <input type="text" class="form-control form-input" placeholder="Search on Nykka">
+              </div>
+            </div>
+            
+          </div>
+          <button class="m-4 w-20 h-10 text-white rounded-lg bg-pink-600">Sign In</button>
+
+        </div>
+        <i class="fa-solid fa-bag-shopping mt-6 pr-4 cursor-pointer"></i></div>
+
+
+    </nav>
+</body>
+</html>
